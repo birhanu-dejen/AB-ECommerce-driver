@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# ABECommerce Driver Delivery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Logo](./assets/favicon.ico)
 
-## Get started
+## Overview
 
-1. Install dependencies
+The ABECommerce Driver Delivery App is a React Native mobile application designed specifically for drivers to facilitate efficient delivery of orders for our e-commerce platform. This app allows drivers to receive, manage, and update delivery orders, ensuring a seamless experience for both the drivers and customers.
+
+## Features
+
+- **User Authentication**: Secure login for drivers to access their delivery tasks.
+- **Order Management**: View and manage delivery orders in real-time.
+- **Status Updates**: Update the status of deliveries (e.g., picked up, in transit, delivered).
+- **Route Navigation**: Integrated maps for optimal route planning.
+- **Push Notifications**: Receive real-time notifications for new deliveries and updates.
+
+## Technologies Used
+
+- **React Native**: For building cross-platform mobile applications.
+- **Redux**: For state management.
+- **React Navigation**: For seamless navigation between screens.
+- **Axios**: For API requests.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (version x.x.x)
+- npm or Yarn package manager
+- React Native CLI
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/birhanu-dejen/AB-ECommerce-driver.git
+   ```
+
+2. **Install dependencies**:
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. **Run the application**:
+
+   For iOS:
 
    ```bash
-    npx expo start
+   npx react-native run-ios
    ```
 
-In the output, you'll find options to open the app in a
+   For Android:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   npx react-native run-android
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Configuration
 
-## Get a fresh project
+Make sure to set up your environment variables for API endpoints in the `.env` file. Refer to the `.env.example` for the necessary variables.
 
-When you're ready, run:
+## Usage
 
-```bash
-npm run reset-project
-```
+- After installation, open the app and log in with your driver credentials.
+- Navigate through the app to view your delivery orders and update their status as needed.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
 
-## Learn more
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Your Name** - [birhanudejen617@gmail.com.com](mailto:your.email@example.com)
