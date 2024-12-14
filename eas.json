@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://abstore-backend-tp11.onrender.com/"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://abstore-backend-tp11.onrender.com/"
+      }
+    },
+    "test": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://abstore-backend-tp11.onrender.com/"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

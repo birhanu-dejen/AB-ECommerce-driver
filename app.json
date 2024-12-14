@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Ab-Store Driver",
+    "slug": "ab-store-driver",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/pwa-maskable-512x512.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff",
+        "dark": {
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
+        }
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff",
+        "dark": {
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pwa-maskable-512x512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yoftahe.abstoredriver"
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a28e67f9-1471-4aea-9ca4-1bd58ec249dd"
+      }
+    }
+  }
+}
