@@ -25,7 +25,7 @@ The ABECommerce Driver Delivery App is a React Native mobile application designe
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js (version x.x.x)
+- Node.js
 - npm or Yarn package manager
 - React Native CLI
 
@@ -72,4 +72,4 @@ Make sure to set up your environment variables for API endpoints in the `.env` f
 
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-- **Your Name** - [birhanudejen617@gmail.com.com](mailto:your.email@example.com)
+- **birhanu dejen** - [birhanudejen617@gmail.com.com](mailto:your.email@example.com)
